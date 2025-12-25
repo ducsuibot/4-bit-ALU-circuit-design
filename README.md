@@ -34,12 +34,11 @@ Mạch sử dụng bộ giải mã **3-bit Select** để lựa chọn chức n�
 | **100** | **XOR** | Logic XOR | A ^ B |
 | **101** | **NOT** | Logic NOT | Đảo bit A |
 
-### Đặc điểm kỹ thuật
+### nguyên lý hoạt động
 * **Input:** Hai số A và B (4-bit mỗi số).
-* **ADD:** Cộng 2 số không dấu (Output 5-bit để hiện tràn).
-* **SUB:** Trừ 2 số có dấu (Bù 2).
-* **MUL:** Nhân 2 số không dấu (Output tối đa 225).
-
+* **ADD/SUB:** 2 mạch này dùng chung 1 mạch và dùng 1 tín hiệu 1 bit để điều chọn add hoặc sub. add(0): Cộng 2 số không dấu (output 5-bit để hiện tràn số), sub(1): trừ 2 số có dấu (Bù 2).
+* **MUL:** Nhân 2 số không dấu (Output tối đa 225), mạch sử dụng cổng AND để nhân và các bộ Adder để cộng dồn các kết quả trung gian sau khi đã dịch bit.
+* **AND,OR,XOR,NOT:** thực hiện các phép toán này vào A, B.
 ---
 
 ## 🛠 Linh kiện sử dụng (Components)
