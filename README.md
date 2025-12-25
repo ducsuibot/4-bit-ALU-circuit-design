@@ -1,6 +1,8 @@
 # 4-Bit ALU Circuit Design 🧮
 
 > **Báo cáo Bài tập lớn môn Điện tử số** > **Trường Điện - Điện tử | Đại học Bách Khoa Hà Nội (HUST)**
+> 
+> **GVHD: PGS.TS.Hoàng Mạnh Thắng**
 
 Dự án thiết kế mạch **ALU (Arithmetic Logic Unit) 4-bit**, có khả năng thực hiện các phép toán số học (Cộng, Trừ, Nhân) và các phép toán logic (AND, OR, XOR, NOT) trên hai toán hạng 4-bit.
 ---
@@ -60,7 +62,6 @@ Mạch sử dụng bộ giải mã **3-bit Select** để lựa chọn chức n�
 ```text
 4-bit-ALU-circuit-design/
 ├── proteus 8.17/       # File mô phỏng .pdsprj
-├── images/             # Hình ảnh sơ đồ và mạch
 ├── board.jpg           # Ảnh chụp mạch thật
 ├── README.md           # Tài liệu hướng dẫn
 └── ...
