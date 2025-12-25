@@ -13,7 +13,7 @@ Mạch được thiết kế và kiểm chứng logic trên phần mềm Proteus
 ### 2. Mạch thực tế (Breadboard)
 Lắp ráp trên board mạch trắng sử dụng các IC số cơ bản.
 
-![Real Board Hardware](https://github.com/ducsuibot/4-bit-ALU-circuit-design/blob/main/board.jpg?raw=true)
+![Real Board Hardware](https://github.com/ducsuibot/4-bit-ALU-circuit-design/blob/main/alu4bit.png)
 
 ---
 
